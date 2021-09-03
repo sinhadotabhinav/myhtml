@@ -29,6 +29,6 @@ jobs:
       - name: Depoy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting:stage
+          args: deploy -P default --only hosting:stage
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

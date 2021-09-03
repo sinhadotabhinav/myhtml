@@ -3,7 +3,7 @@
     "default": "myhtml-stage"
   },
   "targets": {
-    "myhtml": {
+    "myhtml-stage": {
       "hosting": {
         "stage": [
           "myhtml-stage"
