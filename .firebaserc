@@ -1,7 +1,6 @@
 {
   "projects": {
-    "default": "myhtml",
-    "stage": "myhtml-stage"
+    "default": "myhtml"
   },
   "targets": {}
 }
