@@ -5,8 +5,8 @@
   "targets": {
     "myhtml": {
       "hosting": {
-        "prod": [
-          "myhtml"
+        "stage": [
+          "myhtml-stage"
         ]
       }
     }
