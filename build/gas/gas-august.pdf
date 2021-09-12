@@ -1,0 +1,12 @@
+--2021-09-12 22:04:32--  https://www.aims.ca/site/media/aims/2.pdf
+Resolving www.aims.ca (www.aims.ca)... 104.21.72.40, 172.67.174.203
+Connecting to www.aims.ca (www.aims.ca)|104.21.72.40|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 87303 (85K) [application/pdf]
+Saving to: ‘2.pdf’
+
+     0K .......... .......... .......... .......... .......... 58% 1,74M 0s
+    50K .......... .......... .......... .....                100% 7,07M=0,03s
+
+2021-09-12 22:04:32 (2,53 MB/s) - ‘2.pdf’ saved [87303/87303]
+
