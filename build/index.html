@@ -1,25 +1,48 @@
-<!DOCTYPE html>
+<!DOCTYPE html 
+      PUBLIC "-//W3C//DTD HTML 4.01//EN"
+      "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="logo192.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="sinhabhinav.dev"
-      content="This blog Web site has been created using the React JavaScript framework"
-    />
-    <link rel="apple-touch-icon" href="logo192.png" />
-    <title>Abhinav Sinha | Power and Gas</title>
-  </head>
-  <body>
-      <p>
-          Power:
-          <a href="power/power-august.html">Monthly Power</a>
-      </p>
-      <p>
-          Gas:
-          <a href="gas/gas-august.html">Monthly Gas</a>
-      </p>
-  </body>
+    <head profile="http://www.w3.org/2005/10/profile">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="sinhabhinav.dev" content="This blog Web site has been created using the React JavaScript framework" />
+        <link rel="shortcut icon" href="http://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2014-12-10/fcc77d1e3bdd7e17ab1eef4c12924114.ico">
+        <title>Abhinav Sinha | Power and Gas</title>
+    </head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .row {
+            display: flex;
+        }
+        .column {
+            flex: 50%;
+            text-align: center;
+            margin-top: 5rem;
+        }
+        .header {
+            font-size: 4rem;
+            margin-top: 10rem;
+        }
+        .items {
+            font-size: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+    <body>
+        <div class="row">
+            <div class="column">
+                <h2 class="header">Power</h2>
+                <p class="items"><a href="power/power-august.html">Monthly Power</a></p>
+                <p class="items"><a href="power/power-august.html">Weekly Power</a></p>
+            </div>
+            <div class="column">
+                <h2 class="header">Gas</h2>
+                <p class="items"><a href="gas/gas-august.html">Monthly Gas</a></p>
+                <p class="items"><a href="gas/gas-august.html">Weekly Gas</a></p>
+            </div>
+        </div>
+    </body>
 </html>
